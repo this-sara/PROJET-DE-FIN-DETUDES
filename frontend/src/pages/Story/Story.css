@@ -1,0 +1,45 @@
+.counter {
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(34,164,175);
+  }
+  
+  .counter__title {
+    font-size: 1rem;
+    color: #0a2b1e;
+    font-weight: 500;
+  }
+  
+  .about__content {
+    padding-left: 50px;
+    padding-top: 30px;
+  }
+  
+  .about__img img {
+    border-radius: 15px;
+  }
+  
+  .about__content h2 {
+    font-weight: 600;
+    color: rgb(34,164,175);
+    
+  }
+  .choose{
+    margin-top: 40px;
+
+  }
+
+
+
+.allo,b{
+   text-align: center;
+   padding-bottom: 10px;
+  }
+.centre{
+  padding-bottom: 60px;
+}
+.fofa{
+  color: rgb(238,62,84);
+  text-align: center;
+  padding-bottom: 10px;
+}

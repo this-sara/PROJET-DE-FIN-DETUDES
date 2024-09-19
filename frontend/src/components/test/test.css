@@ -1,0 +1,120 @@
+.test{
+    display: flex;
+    gap: 1rem;
+    /* padding:0 2rem; */
+    padding-left: 100px;
+    padding-right: 20px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    /* background-image: ; */
+}
+
+.left-test{
+    display: flex;
+    flex: 1 1;
+    gap: 2rem;
+    flex-direction: column;
+    /* text-transform: uppercase; */
+    color: white;
+}
+
+.left-test{
+    color: black; 
+}
+
+.left-test>:nth-child(2),
+.left-test>:nth-child(3){
+    font-size: 2.5rem;
+    color: rgb(86, 130, 138);
+}
+
+.left-test>:nth-child(4){
+    text-transform: none;
+    text-align: justify;
+    /* letter-spacing: 2px; */
+    line-height: 30px;
+}
+
+.right-test{
+    flex: 1;
+    position: relative;
+}
+
+.right-test>img{
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    object-fit: cover;
+    right: 8rem;
+    top: 3.5rem;
+}
+.right-test>:nth-child(1)
+{
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    border: 2px solid rgb(86, 130, 138);
+    background-color:transparent ;
+    right: 9rem;
+    top: 2rem;
+}
+.right-test>:nth-child(2){
+    position: absolute;
+    width: 17rem;
+    height: 19rem;
+    right: 7rem;
+    top: 5rem;
+    background:rgb(86, 130, 138);
+
+}
+.arrows{
+    display: flex;
+    gap:1rem;
+    position: absolute;
+    bottom: 1rem;
+    left: 3rem;
+}
+.arrows>img{
+    width: 1.5rem;
+    cursor: pointer;
+}
+.planner{
+    color:rgb(1,68,83);
+    font-size: 20px;
+}
+@media screen and (max-width:768Px){
+    .test{
+        flex-direction: column;
+    }
+    .left-test>:nth-child(2)
+    .left-test>:nth-child(3){
+        font-size: xx-large;
+    }
+    .right-test{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        padding:0 2rem; 
+    }
+    .right-test>div{
+        position: relative;
+        display: none;
+    }
+    .right-test>img{
+        top:0;
+        right: 0;
+        position: relative;
+        align-self:center ;
+    }
+    .right-test>:last-child{
+        display: block;
+        bottom: 0;
+        left: 0;
+    }
+    .test{
+        padding-left: 30px;
+        margin-top: 5px;
+    }
+}
